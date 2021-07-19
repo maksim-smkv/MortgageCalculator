@@ -11,7 +11,7 @@ class MainApp(MDApp):
         screen = Screen()
         screen.add_widget(
             MDRectangleFlatButton(
-                text="Hello, Усачишка !",
+                text="Hello, Усачишка! Как тебе кактусовая заставка?",
                 pos_hint={"center_x": 0.5, "center_y": 0.5},
             )
         )
