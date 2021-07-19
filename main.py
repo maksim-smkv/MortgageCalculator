@@ -7,6 +7,7 @@ from kivymd.uix.button import MDRectangleFlatButton
 class MainApp(MDApp):
     def build(self):
         self.theme_cls.theme_style = "Dark"  # "Light"
+        self.theme_cls.primary_palette = "Green"
 
         screen = Screen()
         screen.add_widget(
